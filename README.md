@@ -36,6 +36,6 @@ When to Use Rebase ?
  ************************
   How to List Tags ?
 
-  To list all the tags in your repository, use the following command:
+  To list all the tags :
     - git tag
-    - 
+    
