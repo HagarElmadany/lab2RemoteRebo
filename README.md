@@ -32,3 +32,10 @@ When to Use Rebase ?
 
  -  git checkout dev
  -  git rebase main
+
+ ************************
+  How to List Tags ?
+
+  To list all the tags in your repository, use the following command:
+    - git tag
+    - 
