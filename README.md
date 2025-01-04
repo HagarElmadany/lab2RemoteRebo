@@ -47,4 +47,4 @@ When to Use Rebase ?
  - git tag -d v1.0
 
  To delete remote tag:
- git push origin --delete v1.0
+ - git push origin --delete v1.0
