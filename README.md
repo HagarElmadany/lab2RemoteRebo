@@ -1,3 +1,4 @@
+ 🎄🎅
  How remove branch Locally and Remotely?
 
  => to remove a local branch :
@@ -36,6 +37,14 @@ When to Use Rebase ?
  ************************
   How to List Tags ?
 
+
   To list all the tags :
     - git tag
-    
+*********************************
+ how to delete tag locally and remotely ?
+ 
+ To delete a tag locally:
+ - git tag -d v1.0
+
+ To delete remote tag:
+ git push origin --delete v1.0
