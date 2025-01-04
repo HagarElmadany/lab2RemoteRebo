@@ -12,6 +12,7 @@
 
 ********************************
 Annotated tags vs Lightweight Tags
+
 Annotated Tags: Store detailed information (name, email, date, message) and are used for important milestones or releases.
 - Used for marking releases.
 - To create an annotated tag:
@@ -22,3 +23,12 @@ Lightweight Tags: Simply point to a commit without extra metadata and are typica
 - Used for quick references or temporary markers.
 - To create a lightweight tag"
 git tag v1.0
+
+****************************************
+When to Use Rebase ?
+ Rebase can be used to ensure that any other branch is up to date with the latest changes from the main branch.
+
+ example when create main branch with 3 commit then create dev branch  then make new commit in main brach ,the dev branch canot see the fourth commit to make it see the last commit in main branch we use rebase
+
+ -  git checkout dev
+ -  git rebase main
