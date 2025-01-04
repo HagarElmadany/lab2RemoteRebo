@@ -1,4 +1,6 @@
  🎄🎅
+![Project Logo](git.jpg)
+ ********************************
  How remove branch Locally and Remotely?
 
  => to remove a local branch :
@@ -48,3 +50,4 @@ When to Use Rebase ?
 
  To delete remote tag:
  - git push origin --delete v1.0
+
